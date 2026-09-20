@@ -53,7 +53,7 @@ export const getTokenSignatures = async ({ role = RoleEnum.USER } = {}) => {
   return signatures;
 };
 
-//return access and refresh tokens according to the role
+//return access or refresh token according to the role
 export const getSignature = async ({
   tokenType = TokenTypeEnum.ACCESS,
   role=RoleEnum.USER
