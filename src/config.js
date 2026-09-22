@@ -16,3 +16,5 @@ export const REFRESH_ADMIN_TOKEN_SIGNATURE=process.env.REFRESH_ADMIN_TOKEN_SIGNA
 
 export const ACCESS_TOKEN_EXPIRESIN=parseInt(process.env.ACCESS_TOKEN_EXPIRESIN ?? "1800")
 export const REFRESH_TOKEN_EXPIRESIN=parseInt(process.env.REFRESH_TOKEN_EXPIRESIN ?? "86400")
+export const WEB_CLIENT_IDS=process.env.WEB_CLIENT_IDS.split(",")
+ 
